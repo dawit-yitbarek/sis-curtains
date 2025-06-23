@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'
-import Testimonial from '../component/testimonial';
+import Testimonial from '../component/Testimonial';
 import Hero from '../component/Hero';
 import Navbar from '../component/Navbar'
 import Footer from '../component/Footer'

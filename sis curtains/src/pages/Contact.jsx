@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 import { FaTelegramPlane, FaTiktok, FaInstagram, FaFacebookF } from "react-icons/fa";
 import Navbar from '../component/Navbar';
-import footer from '../component/Footer'
 import Footer from "../component/Footer";
 
 export default function Contact() {
