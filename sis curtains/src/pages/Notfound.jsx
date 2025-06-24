@@ -1,10 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
 
 export default function NotFound() {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* Navbar section */}
@@ -26,12 +28,13 @@ export default function NotFound() {
           <p className="text-xl text-gray-800 mb-6">
             Oops! The page you’re looking for doesn’t exist.
           </p>
-          <Link
-            to="/"
+          <button
+            onClick={() => navigate("/")}
             className="inline-block mt-2 bg-[#b26e63] text-white px-6 py-3 rounded-full hover:bg-[#a05f55] transition"
           >
             Back to Home
-          </Link>
+          </button>
+
         </motion.div>
 
         {/* Floating decorative element */}
