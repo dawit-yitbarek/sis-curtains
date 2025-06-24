@@ -136,7 +136,7 @@ export default function Contact() {
                                 <h4 className="text-lg font-semibold text-[#b26e63]">Our Branches</h4>
                                 <div className="space-y-4">
                                     <div className="bg-[#fef8f5] p-4 rounded-lg border border-[#ecdcd5] shadow-sm">
-                                        <p className="font-medium text-gray-700 mb-1">Branch 1 – Gurd Shola, Sealite mehret</p>
+                                        <p className="font-medium text-gray-700 mb-1">Branch 1 – Gurd Shola, Sealite Mehret Mesalemiya</p>
                                         <a
                                             href="https://maps.app.goo.gl/6o8TZd7M5eT3pngr5"
                                             target="_blank"
@@ -147,7 +147,7 @@ export default function Contact() {
                                         </a>
                                     </div>
                                     <div className="bg-[#fef8f5] p-4 rounded-lg border border-[#ecdcd5] shadow-sm">
-                                        <p className="font-medium text-gray-700 mb-1">Branch 2 – Yerer Alemayehu building</p>
+                                        <p className="font-medium text-gray-700 mb-1">Branch 2 – Yerer, Beside Alemayehu building</p>
                                         <a
                                             href="https://maps.app.goo.gl/Pc63j1ECBbU5t8KH7"
                                             target="_blank"
