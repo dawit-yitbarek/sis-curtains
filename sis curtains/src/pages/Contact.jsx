@@ -104,7 +104,7 @@ export default function Contact() {
                                         <FaTelegramPlane />
                                     </a>
                                     <a
-                                        href="https://tiktok.com/sis.curtains"
+                                        href="https://tiktok.com/@sis.curtains"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="hover:text-[#b26e63] transition "
