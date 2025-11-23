@@ -19,7 +19,7 @@ const testimonialSettings = {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    adaptiveHeight: true, // ✅ This fixes your issue
+    adaptiveHeight: true,
 };
 
 
@@ -40,7 +40,7 @@ const Testimonial = () => {
                     {[
                         ["Absolutely love the new curtains – they changed the whole vibe.", "Sara K."],
                         ["Top-tier quality and fast delivery. Highly recommended!", "Mohammed T."],
-                        ["The carpet is stunning and plush. Service was excellent.", "Eden M."], 
+                        ["The carpet is stunning and plush. Service was excellent.", "Eden M."],
                     ].map(([quote, author], idx) => (
                         <div key={idx} className="px-6 md:px-12 py-4">
                             <div className="p-8 border rounded-xl bg-gradient-to-br from-white via-[#f9f3f0] to-[#fef8f5] shadow-md  hover:scale-105 transition-all duration-300 ease-in-out">
