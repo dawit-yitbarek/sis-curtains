@@ -10,7 +10,7 @@ const productsData = [
         title: "Elegant Sheer Curtains",
         desc: "Light and airy, perfect for soft natural light.",
         img: "/images/products/curtain1.jpg",
-        price: "$120",
+        price: 12000,
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const productsData = [
         title: "Velvet Drapes",
         desc: "Luxurious thick velvet to block light and add warmth.",
         img: "/images/products/curtain2.jpg",
-        price: "$200",
+        price: 15000,
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const productsData = [
         title: "Persian Style Rug",
         desc: "Handwoven, rich in color and pattern.",
         img: "/images/products/carpet1.jpg",
-        price: "$350",
+        price: 15000,
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ const productsData = [
         title: "Modern Plush Carpet",
         desc: "Soft texture and neutral color for any room.",
         img: "/images/products/carpet2.jpg",
-        price: "$220",
+        price: 22000,
     },
 ];
 
@@ -120,7 +120,7 @@ export default function Products() {
                                         {title}
                                     </h3>
                                     <p className="text-gray-600 mb-4">{desc}</p>
-                                    <p className="text-lg font-semibold text-[#b26e63]">{price}</p>
+                                    <p className="text-lg font-semibold text-[#b26e63]">{price.toLocaleString()} Birr</p>
                                 </div>
                             </motion.div>
                         ))
